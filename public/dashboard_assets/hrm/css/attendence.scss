@@ -1,0 +1,22 @@
+.vacancy_modal_header{
+    background-color: #5e72e4;
+}
+
+#Attendence_form,#Attendence_updated_form{
+    box-shadow: inset 0 0 16px -2px grey;
+}
+.select-all-butt{
+    font-size: 9px;
+    letter-spacing: 1px;
+}
+.monthly_daily_radio_parent{
+    margin-bottom: 25px;
+    padding: 40px;
+    border-radius: 12px;
+    background:  white;
+}
+
+.day_radio_parent,.month_radio_parent{
+    position: relative;
+    top: 20px;
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto&display=swap");
+h5, .user_profile_updated_msg {
+  font-family: "Roboto", sans-serif;
+}
+
+label {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1px;
+  margin-bottom: 4px;
+}
+
+.profile {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.profile_row {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.user_information {
+  background: black;
+}
+
+.parent {
+  background: #fff;
+  padding: 25px;
+}
+
+.select2-selection__placeholder {
+  color: #bababa !important;
+}
+
+.select2-selection {
+  border-radius: 10px !important;
+  border: 1px solid #d2d6da !important;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #F0F1F2;
+  color: #393A3B;
+}
+
+.select2-results__option:hover {
+  background-color: #F0F1F2 !important;
+  color: dark;
+}
+
+.update_profile_button {
+  letter-spacing: 0.7px;
+  font-family: "Roboto", sans-serif;
+}/*# sourceMappingURL=profile.css.map */

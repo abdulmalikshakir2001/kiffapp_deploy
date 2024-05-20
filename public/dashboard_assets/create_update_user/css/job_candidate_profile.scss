@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    color: #2e323c;
+    background: #f5f6fa;
+    position: relative;
+    height: 100%;
+}
+.account-settings .user-profile {
+    margin: 0 0 1rem 0;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.account-settings .user-profile .user-avatar {
+    margin: 0 0 1rem 0;
+}
+.account-settings .user-profile .user-avatar img {
+    width: 90px;
+    height: 90px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+.account-settings .user-profile h5.user-name {
+    margin: 0 0 0.5rem 0;
+}
+.account-settings .user-profile h6.user-email {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #9fa8b9;
+}
+.account-settings .about {
+    margin: 2rem 0 0 0;
+    text-align: center;
+}
+.account-settings .about h5 {
+    margin: 0 0 15px 0;
+    color: #007ae1;
+}
+.account-settings .about p {
+    font-size: 0.825rem;
+}
+.form-control {
+    border: 1px solid #cfd1d8;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-size: .825rem;
+    background: #ffffff;
+    color: #2e323c;
+}
+
+.card {
+    background: #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 1rem;
+}
+// ul start 
+.job_cand_menu_parent{
+    background: white;
+    padding: 20px 3px;
+}
+.job_cand_menu{
+    display: flex;
+    justify-content: end;
+    box-shadow:  0 0 28px 1px #d4d4d4;
+    // border: 1px solid rgb(199, 195, 195);
+    background-color: white !important;
+    padding: 20px 3px;
+    border-radius: 10px;
+    list-style: none;
+    a{
+            padding-right: 15px;
+            &:nth-last-child(1){
+                background-color: #596CFF;
+                padding-right: 0;
+                margin-right: 15px;
+                padding: 1px 16px;
+    border-radius: 5px;
+    color: white;
+            }
+
+    }
+    li{
+        border: none;
+        letter-spacing: 1px;
+        font-size: .8rem;
+        font-weight: 600;
+        
+        
+       
+    }
+
+}
+// ul end 

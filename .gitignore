@@ -1,0 +1,41 @@
+# Laravel-specific
+
+/node_modules
+
+/vendor
+
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# IDE/Editor specific
+.idea
+*.iml
+*.idea
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.log.*
+
+# Compiled files
+*.css.map
+*.js.map
+
+# Misc
+.DS_Store
+
+
+# Laravel Horizon
+horizon-*.sock
+.vscode

@@ -1,0 +1,41 @@
++--------+-----------+-----------------------------------------+--------------------------+------------------------------------------------------------+------------------------------------------+
+| Domain | Method    | URI                                     | Name                     | Action                                                     | Middleware                               |
++--------+-----------+-----------------------------------------+--------------------------+------------------------------------------------------------+------------------------------------------+
+|        | GET|HEAD  | /                                       | home                     | Closure                                                    | web                                      |
+|        | GET|HEAD  | api/user                                |                          | Closure                                                    | api                                      |
+|        |           |                                         |                          |                                                            | App\Http\Middleware\Authenticate:sanctum |
+|        | POST      | companies                               | companies.store          | App\Http\Controllers\CompaniesController@store             | web                                      |
+|        | GET|HEAD  | companies                               | companies.index          | App\Http\Controllers\CompaniesController@index             | web                                      |
+|        | GET|HEAD  | companies/create                        | companies.create         | App\Http\Controllers\CompaniesController@create            | web                                      |
+|        | DELETE    | companies/{company}                     | companies.destroy        | App\Http\Controllers\CompaniesController@destroy           | web                                      |
+|        | GET|HEAD  | companies/{company}                     | companies.show           | App\Http\Controllers\CompaniesController@show              | web                                      |
+|        | PUT|PATCH | companies/{company}                     | companies.update         | App\Http\Controllers\CompaniesController@update            | web                                      |
+|        | GET|HEAD  | companies/{company}/edit                | companies.edit           | App\Http\Controllers\CompaniesController@edit              | web                                      |
+|        | GET|HEAD  | countries                               | countries.index          | App\Http\Controllers\CountriesController@index             | web                                      |
+|        | POST      | countries                               | countries.store          | App\Http\Controllers\CountriesController@store             | web                                      |
+|        | GET|HEAD  | countries/create                        | countries.create         | App\Http\Controllers\CountriesController@create            | web                                      |
+|        | GET|HEAD  | countries/{country}                     | countries.show           | App\Http\Controllers\CountriesController@show              | web                                      |
+|        | DELETE    | countries/{country}                     | countries.destroy        | App\Http\Controllers\CountriesController@destroy           | web                                      |
+|        | PUT|PATCH | countries/{country}                     | countries.update         | App\Http\Controllers\CountriesController@update            | web                                      |
+|        | GET|HEAD  | countries/{country}/edit                | countries.edit           | App\Http\Controllers\CountriesController@edit              | web                                      |
+|        | GET|HEAD  | dashboard                               | dashboard                | Closure                                                    | web                                      |
+|        | POST      | dashboard/authenticate                  |                          | App\Http\Controllers\DashboardController@authenticate      | web                                      |
+|        | GET|HEAD  | dashboard/login                         |                          | App\Http\Controllers\DashboardController@login             | web                                      |
+|        | GET|HEAD  | dashboard/logout                        |                          | App\Http\Controllers\DashboardController@logout            | web                                      |
+|        | GET|HEAD  | publicweb/{webfront_public_code?}       |                          | Closure                                                    | web                                      |
+|        | GET|HEAD  | sanctum/csrf-cookie                     |                          | Laravel\Sanctum\Http\Controllers\CsrfCookieController@show | web                                      |
+|        | GET|HEAD  | usersgroups                             | usersgroups.index        | App\Http\Controllers\UsersGroupsController@index           | web                                      |
+|        | POST      | usersgroups                             | usersgroups.store        | App\Http\Controllers\UsersGroupsController@store           | web                                      |
+|        | GET|HEAD  | usersgroups/create                      | usersgroups.create       | App\Http\Controllers\UsersGroupsController@create          | web                                      |
+|        | PUT|PATCH | usersgroups/{usersgroup}                | usersgroups.update       | App\Http\Controllers\UsersGroupsController@update          | web                                      |
+|        | DELETE    | usersgroups/{usersgroup}                | usersgroups.destroy      | App\Http\Controllers\UsersGroupsController@destroy         | web                                      |
+|        | GET|HEAD  | usersgroups/{usersgroup}                | usersgroups.show         | App\Http\Controllers\UsersGroupsController@show            | web                                      |
+|        | GET|HEAD  | usersgroups/{usersgroup}/edit           | usersgroups.edit         | App\Http\Controllers\UsersGroupsController@edit            | web                                      |
+|        | GET|HEAD  | userspermissions                        | userspermissions.index   | App\Http\Controllers\UsersPermissionsController@index      | web                                      |
+|        | POST      | userspermissions                        | userspermissions.store   | App\Http\Controllers\UsersPermissionsController@store      | web                                      |
+|        | GET|HEAD  | userspermissions/create                 | userspermissions.create  | App\Http\Controllers\UsersPermissionsController@create     | web                                      |
+|        | GET|HEAD  | userspermissions/{userspermission}      | userspermissions.show    | App\Http\Controllers\UsersPermissionsController@show       | web                                      |
+|        | PUT|PATCH | userspermissions/{userspermission}      | userspermissions.update  | App\Http\Controllers\UsersPermissionsController@update     | web                                      |
+|        | DELETE    | userspermissions/{userspermission}      | userspermissions.destroy | App\Http\Controllers\UsersPermissionsController@destroy    | web                                      |
+|        | GET|HEAD  | userspermissions/{userspermission}/edit | userspermissions.edit    | App\Http\Controllers\UsersPermissionsController@edit       | web                                      |
++--------+-----------+-----------------------------------------+--------------------------+------------------------------------------------------------+------------------------------------------+

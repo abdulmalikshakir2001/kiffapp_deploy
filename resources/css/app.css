@@ -1,0 +1,5 @@
+@import url('../../node_modules/pdfjs-dist/legacy/web/pdf_viewer');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

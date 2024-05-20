@@ -1,0 +1,1 @@
+@extends('layouts.webfront-t1-master')

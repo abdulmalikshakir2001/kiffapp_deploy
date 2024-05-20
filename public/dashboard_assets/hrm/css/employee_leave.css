@@ -1,0 +1,19 @@
+.vacancy_modal_header {
+  background-color: #5e72e4;
+}
+
+#job_vacancies_form, #job_vacancies_updated_form {
+  box-shadow: inset 0 0 16px -2px grey;
+}
+
+#user_id-error {
+  position: absolute !important;
+  top: 70px;
+  left: 10px;
+}
+
+#leave_type_id-error {
+  position: relative;
+  top: 66px;
+  left: -68px;
+}/*# sourceMappingURL=employee_leave.css.map */

@@ -1,0 +1,4 @@
+PUBLIC DIRECTORY:
+for every view file there is  folder in public directory with the name of view file which contains static assets and also public folder contain assets folder which contain all files for argon dashboard in addition with custom.css and custom.js.
+
+

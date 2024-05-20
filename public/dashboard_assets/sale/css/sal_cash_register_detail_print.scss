@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto&display=swap");
+* {
+    box-sizing: border-box;
+  }
+
+body{
+
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    background:#f5f8fa;
+}
+body *{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper{
+    margin: 35px 0;
+}
+
+.company_info_parent{
+
+
+    background: white;
+    width: 100%;
+    padding: 20px;
+    font-size: 0;
+    & > div{
+        display: inline-block;  // removed white space in blade page between div tags to avoid white space
+        width: 49%;
+        vertical-align: top;
+        font-size: 16px;
+    }
+}
+.image{
+
+    width: 75%;
+    height: 150px ;
+    margin-bottom:20px ;
+}
+.heading{
+
+    width: 75%;
+    margin: 0;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+p{
+    margin: 0;
+    margin: 5px 0;
+    padding: 5px;
+}
+.company_info_left{
+    
+    
+
+    
+}
+
+
+// vendor information
+
+// invoice start 
+.invoice{
+    margin-top: 20px;
+    background-color: white;
+    .company_info_right *{
+        margin-top: 10px;
+
+    }
+    .company_info_left *{
+        margin-top: 10px;
+
+    }
+    
+}
+// table 
+.product_table{
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        
+        }
+        td{
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #cecece;
+        }
+        tfoot{
+            td{
+                text-align: end;
+            }
+    }
+}
+
+// invoice end 
+.bg-danger{
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+
+}
+.bg-success{
+    background-color: rgb(33, 221, 33);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+
+}
+.transaction_footer{
+    font-size: 0;
+    text-align: end;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    font-weight: bold;
+
+}
+
+
+@media print {
+    
+    .invoice{
+        padding: 20px;
+    }
+    
+}
